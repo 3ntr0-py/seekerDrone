@@ -37,16 +37,16 @@ while (True):
             color = (0, 0, 255)
 
         if centro_x > 340 :
-            //mover a la derecha
+            print('move right')
 
         if centro_x < 300 :
-            //mover a la izquierda
+            print('move left')
 
         if centro_y < 220 :
-            //mover hacia abajo
+            print('move down')
 
         if centro_y > 260 :
-            //mover hacia arriba
+            print('move up')
 
         cv2.rectangle(frame, (x, y), (width, height), color, stroke)
         cv2.circle(frame, (centro_x, centro_y), 5, (0, 0, 255))
